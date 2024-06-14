@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ras -1
+find . -empty  | rev | cut -d/ -f1 | rev
